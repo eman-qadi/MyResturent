@@ -8,7 +8,7 @@
     android:background="@drawable/interface1">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button4"
         style="@style/Widget.AppCompat.Button.Borderless"
         android:layout_width="190dp"
         android:layout_height="59dp"
@@ -23,6 +23,23 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.444" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="190dp"
+        android:layout_height="59dp"
+        android:fontFamily="@font/aclonica"
+        android:onClick="location"
+        android:textColor="#00000000"
+        android:textSize="24sp"
+        app:backgroundTint="#00000000"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.425"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.309" />
 
     <Button
         android:id="@+id/button2"

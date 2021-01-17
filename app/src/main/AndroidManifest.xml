@@ -3,6 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     package="com.example.myresturent">
 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
@@ -12,7 +14,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="false"
         android:theme="@style/Theme.MyResturent">
-        <activity android:name=".MainActivity3"></activity>
+        <activity android:name=".MainActivity4"></activity>
+        <activity android:name=".MainActivity3" />
 
         <uses-library
             android:name="org.apache.http.legacy"
@@ -27,6 +30,7 @@
         </activity>
         <activity android:name=".menu" />
         <activity android:name=".MainActivity2" />
+        <activity android:name=".FindLocation" />
 
         <meta-data
             android:name="preloaded_fonts"

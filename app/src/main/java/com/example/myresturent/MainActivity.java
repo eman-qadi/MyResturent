@@ -14,6 +14,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+
     public void menuOnClick(View view)
     {
         Intent intent = new Intent(this,menu.class);
@@ -22,5 +23,10 @@ public class MainActivity extends AppCompatActivity {
     public void exitOnClick(View view)
     {
         finish();
+    }
+
+    public void location(View view) {
+        Intent intent = new Intent(this,FindLocation.class);
+        startActivity(intent);
     }
 }
